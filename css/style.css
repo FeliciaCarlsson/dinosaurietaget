@@ -19,7 +19,7 @@ body {
   border-bottom-style: solid;
   border-bottom-width: 1px;
   border-bottom-color: #f3f2ea;
-  width: 100%;
+  width: 100vw;
   height: 50px;
   position: sticky;
   top: 0;
@@ -400,7 +400,7 @@ footer {
   width: 5vw;
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 410px){
   .sidonav {
     display: none;
   }
@@ -414,9 +414,49 @@ footer {
   .danrutahöger,
   .konduktörenrutavänster,
   .konduktörenrutahöger {
-    height: 50vw;
+    height: 70vw;
     margin: 0;
     border-radius: 0;
+  }
+
+  .dinorutahöger h2,
+  .litenrutavänster h2,
+  .glittrarutahöger h2,
+  .danrutavänster h2,
+  .konduktörenrutahöger h2,
+  .sidonav h2  {
+    padding: 3vw;
+    padding-top: 7vw;
+    font-size: 5vw;
+    color: #272727;
+    font-weight: normal;
+  }
+
+  .dinorutahöger p,
+  .litenrutavänster p,
+  .glittrarutahöger p,
+  .danrutavänster p,
+  .konduktörenrutahöger p {
+    font-family: helvetica;
+    padding: 3vw;
+    padding-top: 1vw;
+    font-size: 4vw;
+    color: #272727;
+    font-weight: lighter;
+  }
+
+  #dino,
+  #liten,
+  #glittra,
+  #dan {
+    margin-top: 5vw;
+    width: 100%;
+  }
+
+  #konduktören {
+    margin-left: 1.5vw;
+    margin-top: 2vw;
+    width: 85%;
   }
 }
 
