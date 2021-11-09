@@ -1,0 +1,212 @@
+.container {
+  display: grid;
+  grid-template-columns:repeat(12, 1fr);
+  grid-template-rows: repeat(11, auto);
+}
+
+/* navbar */
+
+.navbar {
+  grid-column: 1/-1;
+  grid-row: 1/2;
+}
+
+/*stora bilden och rubriken*/
+.storbild {
+  grid-column: 1/-1;
+  grid-row:2/3;
+}
+
+
+/*videon*/
+
+.intro {
+  grid-column: 6/12;
+  grid-row: 3/6;
+}
+
+
+/*alternativ text istället för inforutor*/
+
+.textruta {
+  grid-row: 3/6;
+  grid-column: 2/6;
+}
+
+
+/*de tre bilderna*/
+
+.dinomedskugga {
+  grid-column: 1/span 4;
+  grid-row:6/7;
+}
+
+.litenmedblomma {
+  grid-column: 5/span 4;
+  grid-row:6/7;
+}
+
+.konduktörenmedgroda {
+  grid-column: 9/span 4;
+  grid-row:6/7;
+}
+
+/*inforutor*/
+
+.info1 {
+  grid-row: 7/8;
+  grid-column: 2/7;
+}
+
+.info2 {
+  grid-row: 8/9;
+  grid-column: 1/6;
+}
+
+.info3 {
+  grid-row: 9/10;
+  grid-column: 2/7;
+}
+
+/*andra textrutan*/
+
+.textruta2 {
+  grid-row: 7/10;
+  grid-column: 7/12;
+}
+
+/*footer
+  (samma styling på båda sidor)
+*/
+
+footer {
+  grid-column: 1/-1;
+  grid-row-end: -1;
+}
+
+
+/*KARAKTÄRER*/
+
+/* stor bild och rubrik */
+
+.gruppbild {
+  grid-row: 2/3;
+  grid-column: 6/12;
+}
+
+.rubrikruta-karaktärer {
+  grid-row: 2/3;
+  grid-column: 2/6;
+}
+
+/* inforutor */
+
+.dinorutavänster {
+  grid-row: 3/4;
+  grid-column:2/5;
+}
+
+.dinorutahöger {
+  grid-row: 3/4;
+  grid-column:5/10;
+}
+
+.litenrutavänster {
+  grid-row: 4/5;
+  grid-column: 2/7;
+}
+
+.litenrutahöger {
+  grid-row: 4/5;
+  grid-column: 7/10;
+}
+
+.glittrarutavänster {
+  grid-row: 5/6;
+  grid-column:2/5;
+}
+
+.glittrarutahöger {
+  grid-row: 5/6;
+  grid-column:5/10;
+}
+
+.danrutavänster {
+  grid-row: 6/7;
+  grid-column: 2/7;
+}
+
+.danrutahöger {
+  grid-row: 6/7;
+  grid-column: 7/10;
+}
+
+.konduktörenrutavänster {
+  grid-row: 7/8;
+  grid-column:2/5;
+}
+
+.konduktörenrutahöger {
+  grid-row: 7/8;
+  grid-column:5/10;
+}
+
+@media only screen and (max-width: 400px){
+  .dinorutavänster {
+    grid-row: 3/4;
+    grid-column:1/6;
+  }
+
+  .dinorutahöger {
+    grid-row: 3/4;
+    grid-column:6/13;
+  }
+
+  .litenrutavänster {
+    grid-row: 4/5;
+    grid-column: 1/8;
+  }
+
+  .litenrutahöger {
+    grid-row: 4/5;
+    grid-column: 8/13;
+  }
+
+  .glittrarutavänster {
+    grid-row: 5/6;
+    grid-column:1/6;
+  }
+
+  .glittrarutahöger {
+    grid-row: 5/6;
+    grid-column:6/13;
+  }
+
+  .danrutavänster {
+    grid-row: 6/7;
+    grid-column: 1/8;
+  }
+
+  .danrutahöger {
+    grid-row: 6/7;
+    grid-column: 8/13;
+  }
+
+  .konduktörenrutavänster {
+    grid-row: 7/8;
+    grid-column:1/6;
+  }
+
+  .konduktörenrutahöger {
+    grid-row: 7/8;
+    grid-column:6/13;
+  }
+
+}
+
+/*navbar på sidan*/
+
+.sidonav {
+  grid-row: 3/5;
+  grid-column: 10/12;
+}

@@ -1,0 +1,434 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  background-color: #fefdf9;
+  overflow-x: hidden;
+}
+/*navbar*/
+
+.navbar {
+  background-color: #fefdf9;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #f3f2ea;
+  width: 100%;
+  height: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  display: flex;
+}
+
+a {
+  color: white;
+  font-family: helvetica;
+  text-decoration: none;
+}
+
+.navcontainer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.spel, .karaktärer {
+  padding: 10px;
+  border-radius: 20px;
+  list-style-type: none;
+}
+
+.hemlogga {
+  height: 100%;
+}
+
+.spel {
+  background-color: #a3d977;
+  margin-right: 20px;
+}
+
+.spel:hover {
+  background-color: #7ab648;
+}
+
+.karaktärer {
+  background-color: #fa9836;
+  margin-right: 40px;
+}
+
+.karaktärer:hover {
+  background-color: #ed8713;
+}
+
+/*HEM*/
+
+/*stora bilden och rubriken*/
+
+.tåget {
+  opacity: 0.5;
+  width: 100%;
+}
+
+.storbild {
+  position: relative;
+}
+
+.storrubrik {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #344d1f;
+  font-family: helvetica;
+  font-size: 5vw;
+}
+/*videon*/
+
+.introvideo {
+  width: 100%;
+  margin-top: 13vw;
+  border-radius: 5px;
+  margin-right: 5vw;
+}
+
+/*alternativ text istället för inforutor*/
+
+.textruta, .textruta2 {
+  margin-top: 13vw;
+  margin-right: 5vw;
+  height: 28vw;
+  border-radius: 5px;
+}
+
+.rubrikirutan {
+  padding-top: 3vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 2vw;
+  font-size: 3vw;
+  color: #272727;
+  font-family: helvetica;
+}
+
+.textirutan {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  font-size: 1.5vw;
+  color: #272727;
+  font-family: helvetica;
+}
+
+/*de tre bilderna*/
+
+.dinomedskugga, .litenmedblomma, .konduktörenmedgroda {
+  width: 22vw;
+  border-radius: 5px;
+  margin-top: 12vw;
+}
+
+.dinomedskugga {
+  margin-left: 10vw;
+}
+
+.litenmedblomma {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+.konduktörenmedgroda {
+  margin-right: 10vw;
+}
+
+/*inforutor
+
+eventuellt byta ut till text istället? kan det se snyggare ut?
+rutorna blev i så skumma proportionen när skärmen blev större.
+
+*/
+
+.info1, .info2, .info3 {
+  border-radius: 5px;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  margin-left: 10vw;
+  margin-right: 5vw;
+  text-align: center;
+  background-color: #fa9836;
+  color: #fefdf9;
+  font-size: 2vw;
+  text-decoration: none;
+  font-family: helvetica;
+}
+
+.info2, .info3 {
+  margin-top: 3vw;
+}
+
+.info1 {
+  margin-top: 15vw;
+}
+
+.info3 {
+  margin-bottom: 13vw;
+}
+
+.info1:hover, .info2:hover, .info3:hover {
+  color: #fefdf9;
+  background-color: #ed8713;
+}
+
+/*andra textrutan*/
+
+.textruta2 {
+  height: 32vw;
+}
+
+/*footer*/
+
+footer {
+  background-color: #f3f2ea;
+  height: 150px;
+  padding: 20px;
+}
+
+
+
+
+
+
+/*KARAKTÄRER*/
+
+
+/* stor bild och rubrik */
+
+.gruppbild {
+  width: 100%;
+  margin-top: 5vw;
+}
+
+.rubrikruta-karaktärer {
+  margin-top: 10vw;
+  margin-bottom: 10vw;
+  height: 25vw;
+  border-radius: 5px;
+}
+
+.rubrik-karaktärer {
+  font-size: 4vw;
+  padding: 3vw;
+  color: #272727;
+  font-family: helvetica;
+  font-weight: normal;
+}
+
+.text-karaktärer {
+  padding: 3vw;
+  padding-top: 0px;
+  font-size: 2vw;
+  color: #272727;
+  font-family: helvetica;
+  font-weight: lighter;
+}
+
+/* inforutor */
+
+.dinorutavänster {
+  background-color: #fa9836;
+  height: 30vw;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.dinorutahöger {
+  background-color: #ffb853;
+  height: 30vw;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.litenrutavänster {
+  margin-top: 5vw;
+  background-color: #a3d977;
+  height: 30vw;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.litenrutahöger {
+  margin-top: 5vw;
+  background-color: #7ab648;
+  height: 30vw;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.glittrarutavänster {
+  margin-top: 5vw;
+  background-color: #9be9eb;
+  height: 30vw;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.glittrarutahöger {
+  margin-top: 5vw;
+  background-color: #d0fbfc;
+  height: 30vw;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.danrutavänster {
+  margin-top: 5vw;
+  background-color: #a3d977;
+  height: 30vw;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.danrutahöger {
+  margin-top: 5vw;
+  background-color: #7ab648;
+  height: 30vw;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.konduktörenrutavänster {
+  margin-top: 5vw;
+  margin-bottom: 13vw;
+  background-color: #fa9836;
+  height: 30vw;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.konduktörenrutahöger {
+  margin-top: 5vw;
+  margin-bottom: 13vw;
+  background-color: #ffb853;
+  height: 30vw;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#dino,
+#liten,
+#glittra,
+#dan {
+  margin-top: 2vw;
+  width: 100%;
+}
+
+#konduktören {
+  margin-left: 1.5vw;
+  width: 85%;
+}
+
+.dinorutahöger h2,
+.litenrutavänster h2,
+.glittrarutahöger h2,
+.danrutavänster h2,
+.konduktörenrutahöger h2,
+.sidonav h2  {
+  font-family: helvetica;
+  padding: 3vw;
+  font-size: 3vw;
+  color: #272727;
+  font-weight: normal;
+}
+
+.dinorutahöger p,
+.litenrutavänster p,
+.glittrarutahöger p,
+.danrutavänster p,
+.konduktörenrutahöger p {
+  font-family: helvetica;
+  padding: 3vw;
+  padding-top: 1vw;
+  font-size: 2vw;
+  color: #272727;
+  font-weight: lighter;
+}
+
+/*navbar på sidan*/
+
+.sidonav {
+  margin-left: 3vw;
+  bottom: 0px;
+  position: sticky;
+  top: 50px;
+}
+
+.sidonav ul {
+  padding-left: 3vw;
+  margin-bottom: 3vw;
+  list-style-type: none;
+}
+
+.sidonav li {
+  margin-bottom: 1.5vw;
+}
+
+.sidonav a {
+  font-family: helvetica;
+  font-size: 1.7vw;
+  font-weight: 300;
+  color: black;
+}
+
+.sidonav h2 {
+  padding: 3vw;
+}
+
+.sidonav li:hover {
+  background-color: #f3f2ea;
+}
+
+.hemikon {
+  margin-top: 4vw;
+  margin-left: 3vw;
+  width: 5vw;
+}
+
+@media only screen and (max-width: 400px){
+  .sidonav {
+    display: none;
+  }
+  .dinorutavänster,
+  .dinorutahöger,
+  .litenrutavänster,
+  .litenrutahöger,
+  .glittrarutavänster,
+  .glittrarutahöger,
+  .danrutavänster,
+  .danrutahöger,
+  .konduktörenrutavänster,
+  .konduktörenrutahöger {
+    height: 50vw;
+    margin: 0;
+    border-radius: 0;
+  }
+}
+
+/*färger
+#fefdf9 - vit
+#f3f2ea - grå
+#fa9836 - mörkare orange
+#ffb853 - ljusare orange
+#7ab648 - mörkgrön
+#344d1f - mycket mörkare grön
+#a3d977 - mellangrön
+#c7e8ac - ljusgrön
+#9be9eb - mörkare blå
+#d0fbfc - ljusare blå
+*/
