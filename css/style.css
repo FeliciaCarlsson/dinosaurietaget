@@ -100,7 +100,7 @@ a {
   margin-right: 5vw;
 }
 
-/*alternativ text istället för inforutor*/
+/*textruta bredvid videon*/
 
 .textruta, .textruta2 {
   margin-top: 13vw;
@@ -148,12 +148,7 @@ a {
   margin-right: 10vw;
 }
 
-/*inforutor
-
-eventuellt byta ut till text istället? kan det se snyggare ut?
-rutorna blev i så skumma proportionen när skärmen blev större.
-
-*/
+/* rutor med länkar */
 
 .info1, .info2, .info3 {
   border-radius: 5px;
