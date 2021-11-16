@@ -41,7 +41,7 @@ a {
   justify-content: flex-end;
 }
 
-.spel, .karaktärer {
+.spel, .karaktarer {
   padding: 10px;
   border-radius: 20px;
   list-style-type: none;
@@ -60,12 +60,12 @@ a {
   background-color: #7ab648;
 }
 
-.karaktärer {
+.karaktarer {
   background-color: #fa9836;
   margin-right: 40px;
 }
 
-.karaktärer:hover {
+.karaktarer:hover {
   background-color: #ed8713;
 }
 
@@ -73,7 +73,7 @@ a {
 
 /*stora bilden och rubriken*/
 
-.tåget {
+.taget {
   opacity: 0.5;
   width: 100%;
 }
@@ -129,7 +129,7 @@ a {
 
 /*de tre bilderna*/
 
-.dinomedskugga, .litenmedblomma, .konduktörenmedgroda {
+.dinomedskugga, .litenmedblomma, .konduktorenmedgroda {
   width: 22vw;
   border-radius: 5px;
   margin-top: 12vw;
@@ -144,7 +144,7 @@ a {
   margin-right: 5vw;
 }
 
-.konduktörenmedgroda {
+.konduktorenmedgroda {
   margin-right: 10vw;
 }
 
@@ -210,14 +210,14 @@ footer {
   margin-top: 5vw;
 }
 
-.rubrikruta-karaktärer {
+.rubrikruta-karaktarer {
   margin-top: 10vw;
   margin-bottom: 10vw;
   height: 25vw;
   border-radius: 5px;
 }
 
-.rubrik-karaktärer {
+.rubrik-karaktarer {
   font-size: 4vw;
   padding: 3vw;
   color: #272727;
@@ -225,7 +225,7 @@ footer {
   font-weight: normal;
 }
 
-.text-karaktärer {
+.text-karaktarer {
   padding: 3vw;
   padding-top: 0px;
   font-size: 2vw;
@@ -236,21 +236,21 @@ footer {
 
 /* inforutor */
 
-.dinorutavänster {
+.dinorutavanster {
   background-color: #fa9836;
   height: 30vw;
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
 }
 
-.dinorutahöger {
+.dinorutahoger {
   background-color: #ffb853;
   height: 30vw;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
 }
 
-.litenrutavänster {
+.litenrutavanster {
   margin-top: 5vw;
   background-color: #a3d977;
   height: 30vw;
@@ -258,7 +258,7 @@ footer {
   border-bottom-left-radius: 5px;
 }
 
-.litenrutahöger {
+.litenrutahoger {
   margin-top: 5vw;
   background-color: #7ab648;
   height: 30vw;
@@ -266,7 +266,7 @@ footer {
   border-bottom-right-radius: 5px;
 }
 
-.glittrarutavänster {
+.glittrarutavanster {
   margin-top: 5vw;
   background-color: #9be9eb;
   height: 30vw;
@@ -274,7 +274,7 @@ footer {
   border-bottom-left-radius: 5px;
 }
 
-.glittrarutahöger {
+.glittrarutahoger {
   margin-top: 5vw;
   background-color: #d0fbfc;
   height: 30vw;
@@ -282,7 +282,7 @@ footer {
   border-bottom-right-radius: 5px;
 }
 
-.danrutavänster {
+.danrutavanster {
   margin-top: 5vw;
   background-color: #a3d977;
   height: 30vw;
@@ -290,7 +290,7 @@ footer {
   border-bottom-left-radius: 5px;
 }
 
-.danrutahöger {
+.danrutahoger {
   margin-top: 5vw;
   background-color: #7ab648;
   height: 30vw;
@@ -298,7 +298,7 @@ footer {
   border-bottom-right-radius: 5px;
 }
 
-.konduktörenrutavänster {
+.konduktorenrutavanster {
   margin-top: 5vw;
   margin-bottom: 13vw;
   background-color: #fa9836;
@@ -307,7 +307,7 @@ footer {
   border-bottom-left-radius: 5px;
 }
 
-.konduktörenrutahöger {
+.konduktorenrutahoger {
   margin-top: 5vw;
   margin-bottom: 13vw;
   background-color: #ffb853;
@@ -324,16 +324,16 @@ footer {
   width: 100%;
 }
 
-#konduktören {
+#konduktoren {
   margin-left: 1.5vw;
   width: 85%;
 }
 
-.dinorutahöger h2,
-.litenrutavänster h2,
-.glittrarutahöger h2,
-.danrutavänster h2,
-.konduktörenrutahöger h2,
+.dinorutahoger h2,
+.litenrutavanster h2,
+.glittrarutahoger h2,
+.danrutavanster h2,
+.konduktorenrutahoger h2,
 .sidonav h2  {
   font-family: helvetica;
   padding: 3vw;
@@ -342,11 +342,11 @@ footer {
   font-weight: normal;
 }
 
-.dinorutahöger p,
-.litenrutavänster p,
-.glittrarutahöger p,
-.danrutavänster p,
-.konduktörenrutahöger p {
+.dinorutahoger p,
+.litenrutavanster p,
+.glittrarutahoger p,
+.danrutavanster p,
+.konduktorenrutahoger p {
   font-family: helvetica;
   padding: 3vw;
   padding-top: 1vw;
@@ -399,26 +399,26 @@ footer {
   .sidonav {
     display: none;
   }
-  .dinorutavänster,
-  .dinorutahöger,
-  .litenrutavänster,
-  .litenrutahöger,
-  .glittrarutavänster,
-  .glittrarutahöger,
-  .danrutavänster,
-  .danrutahöger,
-  .konduktörenrutavänster,
-  .konduktörenrutahöger {
+  .dinorutavanster,
+  .dinorutahoger,
+  .litenrutavanster,
+  .litenrutahoger,
+  .glittrarutavanster,
+  .glittrarutahoger,
+  .danrutavanster,
+  .danrutahoger,
+  .konduktorenrutavanster,
+  .konduktorenrutahoger {
     height: 70vw;
     margin: 0;
     border-radius: 0;
   }
 
-  .dinorutahöger h2,
-  .litenrutavänster h2,
-  .glittrarutahöger h2,
-  .danrutavänster h2,
-  .konduktörenrutahöger h2,
+  .dinorutahoger h2,
+  .litenrutavanster h2,
+  .glittrarutahoger h2,
+  .danrutavanster h2,
+  .konduktorenrutahoger h2,
   .sidonav h2  {
     padding: 3vw;
     padding-top: 7vw;
@@ -427,11 +427,11 @@ footer {
     font-weight: normal;
   }
 
-  .dinorutahöger p,
-  .litenrutavänster p,
-  .glittrarutahöger p,
-  .danrutavänster p,
-  .konduktörenrutahöger p {
+  .dinorutahoger p,
+  .litenrutavanster p,
+  .glittrarutahoger p,
+  .danrutavanster p,
+  .konduktorenrutahoger p {
     font-family: helvetica;
     padding: 3vw;
     padding-top: 1vw;
@@ -448,7 +448,7 @@ footer {
     width: 100%;
   }
 
-  #konduktören {
+  #konduktoren {
     margin-left: 1.5vw;
     margin-top: 2vw;
     width: 85%;
@@ -458,12 +458,12 @@ footer {
 /*färger
 #fefdf9 - vit
 #f3f2ea - grå
-#fa9836 - mörkare orange
+#fa9836 - morkare orange
 #ffb853 - ljusare orange
-#7ab648 - mörkgrön
-#344d1f - mycket mörkare grön
-#a3d977 - mellangrön
-#c7e8ac - ljusgrön
-#9be9eb - mörkare blå
+#7ab648 - morkgron
+#344d1f - mycket morkare gron
+#a3d977 - mellangron
+#c7e8ac - ljusgron
+#9be9eb - morkare blå
 #d0fbfc - ljusare blå
 */
