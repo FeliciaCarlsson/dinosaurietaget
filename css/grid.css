@@ -94,14 +94,14 @@ footer {
   grid-column: 6/12;
 }
 
-.rubrikruta-karaktärer {
+.rubrikruta-karaktarer {
   grid-row: 2/3;
   grid-column: 2/6;
 }
 
 /* inforutor */
 
-.dinorutavänster {
+.dinorutavanster {
   grid-row: 3/4;
   grid-column:2/5;
 }
@@ -111,7 +111,7 @@ footer {
   grid-column:5/10;
 }
 
-.litenrutavänster {
+.litenrutavanster {
   grid-row: 4/5;
   grid-column: 2/7;
 }
@@ -121,7 +121,7 @@ footer {
   grid-column: 7/10;
 }
 
-.glittrarutavänster {
+.glittrarutavanster {
   grid-row: 5/6;
   grid-column:2/5;
 }
@@ -131,7 +131,7 @@ footer {
   grid-column:5/10;
 }
 
-.danrutavänster {
+.danrutavanster {
   grid-row: 6/7;
   grid-column: 2/7;
 }
@@ -141,7 +141,7 @@ footer {
   grid-column: 7/10;
 }
 
-.konduktorenrutavänster {
+.konduktorenrutavanster {
   grid-row: 7/8;
   grid-column:2/5;
 }
@@ -152,7 +152,7 @@ footer {
 }
 
 @media only screen and (max-width: 400px){
-  .dinorutavänster {
+  .dinorutavanster {
     grid-row: 3/4;
     grid-column:1/6;
   }
@@ -162,7 +162,7 @@ footer {
     grid-column:6/13;
   }
 
-  .litenrutavänster {
+  .litenrutavanster {
     grid-row: 4/5;
     grid-column: 1/8;
   }
@@ -172,7 +172,7 @@ footer {
     grid-column: 8/13;
   }
 
-  .glittrarutavänster {
+  .glittrarutavanster {
     grid-row: 5/6;
     grid-column:1/6;
   }
@@ -182,7 +182,7 @@ footer {
     grid-column:6/13;
   }
 
-  .danrutavänster {
+  .danrutavanster {
     grid-row: 6/7;
     grid-column: 1/8;
   }
